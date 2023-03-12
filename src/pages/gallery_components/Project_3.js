@@ -24,7 +24,7 @@ const Porject_3 = () => {
         </div>
         <div>
             <div className="py-3 py-md-5">
-            <div className="container-fluid">
+            <div className="container-fluid py-md-5">
                     <div className="row" >
                         <div className="col-md-3 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">

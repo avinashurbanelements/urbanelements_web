@@ -1,8 +1,5 @@
 import Footer from "../components/Footer"
-
-import Porject_1 from "./gallery_components/Project_1"
-import Porject_2 from "./gallery_components/Project_2"
-import Porject_3 from "./gallery_components/Project_3"
+import { Link, Outlet } from "react-router-dom"
 
 const Gallery = () => {
     return (
@@ -16,7 +13,35 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-            <div id="proj_1">
+            <div className="container">
+                <div className="row justify-content-center align-items-center">
+                    <div className="col-sm-4 py-1 col-10">
+                        <Link style={{textDecoration: "none"}} to="luxurious-brown">
+                            <div className='ue_btn btn btn-sm animated-button thar-three px-3 px-lg-4 py-2 fs-5' style={{color: '#664229', margin:0}}>
+                                Luxurious Brown
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="col-sm-4 py-1 col-10">
+                        <Link style={{textDecoration: "none"}} to="office-essentials">
+                            <div className='ue_btn btn btn-sm animated-button thar-three px-3 px-lg-4 py-2 fs-5' style={{color: '#664229', margin:0}}>
+                            Office Essentials
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="col-sm-4 py-1 col-10">
+                        <Link style={{textDecoration: "none"}} to="aesthetic-decor">
+                            <div className='ue_btn btn btn-sm animated-button thar-three px-3 px-lg-4 py-2 fs-5' style={{color: '#664229', margin:0}}>
+                            Aesthetic Decor
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <Outlet/>
+            </div>
+            {/* <div id="proj_1">
                 <Porject_1/>
             </div>
             <div id="proj_2">
@@ -24,7 +49,7 @@ const Gallery = () => {
             </div>
             <div id="proj_3">
                 <Porject_3/>
-            </div>
+            </div> */}
             <div>
                 <Footer/>
             </div>

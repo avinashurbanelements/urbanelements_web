@@ -29,12 +29,13 @@ const Portfolio = () => {
                     <hr className="col-10 col-md-6" data-aos="fade-up" data-aos-delay="600" style={{padding: '0.1rem'}}/>
                 </div>
             </div>
-            <div>
-                <section className="proj-cards-wrapper">
-                <div className="proj-card-grid-space" data-aos="fade-up" data-aos-delay="300">
+            <div className="container py-5">
+                <section className="row d-flex justify-content-center">
+                <div className="col-md-4 col-10 proj-card-grid-space d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div>
                     <div className="num">01</div>
-                    <Link className="proj-card shadow" to="/gallery#proj_1" 
-                    style={{backgroundImage: `url(${proj_1_1})`}}>
+                    <Link className="proj-card shadow" to="/gallery/luxurious-brown" 
+                    style={{backgroundImage: `url(${proj_1_1})`, width: '100%'}}>
                     <div>
                         <h1 className="project_head">Luxurious Brown</h1>
                         <p></p>
@@ -43,11 +44,13 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </Link>
+                    </div>
                 </div>
-                <div className="proj-card-grid-space" data-aos="fade-up" data-aos-delay="300">
+                <div className="col-md-4 col-10 proj-card-grid-space  d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div>
                     <div className="num">02</div>
-                    <Link className="proj-card2 shadow" to="/gallery#proj_2" 
-                    style={{backgroundImage: `url(${proj_2_1})`}}>
+                    <Link className="proj-card2 shadow" to="/gallery/office-essentials" 
+                    style={{backgroundImage: `url(${proj_2_1})`, width: '100%'}}>
                     <div>
                         <h1 className="project_head2">Office Essentials</h1>
                         <p></p>
@@ -56,11 +59,13 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </Link>
+                    </div>
                 </div>
-                <div className="proj-card-grid-space" data-aos="fade-up" data-aos-delay="300">
+                <div className="col-md-4 col-10 proj-card-grid-space  d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div>
                     <div className="num">03</div>
-                    <Link className="proj-card3 shadow" to="/gallery#proj_3" 
-                    style={{backgroundImage: `url(${proj_3_1})`}}>
+                    <Link className="proj-card3 shadow" to="/gallery/aesthetic-decor" 
+                    style={{backgroundImage: `url(${proj_3_1})`, width: '100%'}}>
                     <div>
                         <h1 className="project_head3">Aesthetic Decor</h1>
                         <p></p>
@@ -69,6 +74,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </Link>
+                    </div>
                 </div>
                 </section>
             </div>
