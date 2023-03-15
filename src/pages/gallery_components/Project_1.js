@@ -41,7 +41,7 @@ const Porject_1 = () => {
                             </div> */}
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_10} alt="Luxurious Brown"/>
+                                    <img className="card-img" src={proj_1_7} alt="Luxurious Brown"/>
                                 </div>
                                 </div>
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
@@ -80,7 +80,7 @@ const Porject_1 = () => {
                         <div className="col-md-4 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_7} alt="Luxurious Brown"/>
+                                    <img className="card-img" src={proj_1_10} alt="Luxurious Brown"/>
                                 </div>
                                 </div>
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">

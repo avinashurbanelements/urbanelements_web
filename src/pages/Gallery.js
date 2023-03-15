@@ -41,15 +41,6 @@ const Gallery = () => {
             <div>
                 <Outlet/>
             </div>
-            {/* <div id="proj_1">
-                <Porject_1/>
-            </div>
-            <div id="proj_2">
-                <Porject_2/>
-            </div>
-            <div id="proj_3">
-                <Porject_3/>
-            </div> */}
             <div>
                 <Footer/>
             </div>

@@ -27,10 +27,10 @@ function App() {
   }
   return (
     <Router>
+      <GoToTop/>
       <HeaderNav>
         <Routes />
       </HeaderNav>
-      <GoToTop/>
     </Router>
   );
 }
