@@ -1,5 +1,5 @@
 import home_banner_logo from "../assets/ue_logo_sm.png"
-import home_banner_1 from "../assets/UE_12.jpg"
+import home_banner_1 from "../assets/proj_3/proj_3_3.jpg"
 import Footer from "../components/Footer";
 
 const Home = () => {
