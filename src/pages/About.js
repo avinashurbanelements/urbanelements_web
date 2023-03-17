@@ -37,13 +37,13 @@ const About = () => {
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div className="carousel-inner" data-aos="fade-up"data-aos-delay="200" >
-                  <div className="carousel-item about_slide_div1 active">
+                  <div className="carousel-item about_slide_div3 active">
                     {/* <img src={proj_1_3} className="d-block w-100" alt="..."/> */}
                   </div>
                   <div className="carousel-item about_slide_div2">
                     {/* <img src={proj_1_4} className="d-block w-100" alt="..."/> */}
                   </div>
-                  <div className="carousel-item about_slide_div3">
+                  <div className="carousel-item about_slide_div1">
                     {/* <img src={proj_1_6} className="d-block w-100" alt="..."/> */}
                   </div>
                   <div className="carousel-item about_slide_div4">
@@ -117,7 +117,7 @@ const About = () => {
                     <div className="carousel-item active" data-bs-interval="10000">
                       <div className="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                         <div className="p-5 col-md-8 col-10 container">
-                          <p className="text-center fs-1"><b>Bhavna Shah</b></p>
+                          <p className="text-center fs-1"><b>Amit Prajapati</b></p>
                           <p className="text-center fs-4">The experience was amazing as you can clearly vision what you want for your house. 
                           Save my time and gave me more clarity and customer service is amazing.</p>
                         </div>

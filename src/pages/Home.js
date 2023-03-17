@@ -30,11 +30,6 @@ const Home = () => {
               <hr className="mx-auto col-md-6 col-10" style={{padding: '0.1rem'}}/>
       </div>
       <div className="py-3 py-md-5">
-        <div className="" data-aos="fade-up" data-aos-delay="500">
-          <h1 className="display-2 text-center">
-            Picture of One Design
-          </h1>
-        </div>
         <div className="mx-auto d-flex justify-content-center align-items-center">
           <div className="p-md-5 p-3 row container-fluid d-flex justify-content-center align-items-center">
             <div className="col-md-4">
@@ -69,7 +64,7 @@ const Home = () => {
             <div className="carousel-item active" data-bs-interval="10000">
               <div className="d-flex justify-content-center align-items-center">
                 <div className="p-5 col-md-8 col-10 container">
-                  <p className="text-center fs-1"><b>Bhavna Shah</b></p>
+                  <p className="text-center fs-1"><b>Amit Prajapati</b></p>
                   <p className="text-center fs-4">The experience was amazing as you can clearly vision what you want for your house. 
                   Save my time and gave me more clarity and customer service is amazing.</p>
                 </div>

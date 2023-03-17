@@ -29,28 +29,28 @@ const Porject_3 = () => {
                         <div className="col-md-3 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_3_1} alt="Luxurious Brown"/>
+                                    <img className="card-img" src={proj_3_3} alt="Luxurious Brown"/>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_3_4} alt="Luxurious Brown"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-12">
-                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
-                                <div className="shadow" data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-center">
                                     <img className="card-img" src={proj_3_2} alt="Luxurious Brown"/>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
+                                <div className="shadow" data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-center">
+                                    <img className="card-img" src={proj_3_4} alt="Luxurious Brown"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6 col-12">
+                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_3_3} alt="Luxurious Brown"/>
+                                    <img className="card-img" src={proj_3_1} alt="Luxurious Brown"/>
                                 </div>
                             </div>
                         </div>
