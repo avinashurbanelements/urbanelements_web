@@ -6,7 +6,7 @@ import {
 const Footer = () => {
 
   let date = new Date();
-//   let year = date.getFullYear()
+  let year = date.getFullYear()
 
     return (
         <div style={{backgroundColor: '#d7b38c', textAlign: "center"}}  className="p-3 p-md-5">
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <hr className="mx-5" style={{backgroundColor: '#664229'}}/>
             <div className="text-center" >
-                <span>Copyright © 2023 urban elements</span>
+                <span>Copyright © {year} urban elements</span>
             </div>
         </div>
     )

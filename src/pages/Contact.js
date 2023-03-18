@@ -67,6 +67,9 @@ const Contact = () => {
                                         <CssTextField style={{width: "100%"}} id="custom-css-outlined-input" name="user_email" label="Enter your email" type={"email"} variant="outlined" required={true} />
                                     </div>
                                     <div className='form-group p-2'>
+                                        <CssTextField style={{width: "100%"}} id="custom-css-outlined-input" inputMode="decimal" name="user_phoneNumber" label="Enter your number" type={"number"} variant="outlined" required={true} />
+                                    </div>
+                                    <div className='form-group p-2'>
                                         <CssTextField style={{width: "100%"}} id="custom-css-outlined-input" multiline rows={4} name="message" label="Enter your message" variant="outlined" required={true} />    
                                     </div>
                                     <div className='p-2' >
