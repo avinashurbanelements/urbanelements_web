@@ -1,6 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
 import {
-    AiFillGithub,
     AiFillInstagram,
     AiFillFacebook
   } from "react-icons/ai";
@@ -8,7 +6,7 @@ import {
 const Footer = () => {
 
   let date = new Date();
-  let year = date.getFullYear()
+//   let year = date.getFullYear()
 
     return (
         <div style={{backgroundColor: '#d7b38c', textAlign: "center"}}  className="p-3 p-md-5">

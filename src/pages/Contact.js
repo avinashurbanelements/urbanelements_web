@@ -31,7 +31,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         console.log(form.current)
-        emailjs.sendForm("service_vkgrvue", "template_nrgjifn", form.current, "FLv9a2UUero-LL3RF").then(
+        emailjs.sendForm("service_vimn9wu", "template_985fmvn", form.current, "jNajG8c3qmTlAGEqt").then(
           (result) => {
             alert("Message Sent Successfully, Check your inbox for confirmation");
             console.log(result.text);
