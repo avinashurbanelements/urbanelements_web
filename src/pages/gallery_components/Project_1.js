@@ -40,6 +40,11 @@ const Porject_1 = () => {
                                 </div>
                             </div> */}
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
+                                <div className="shadow">
+                                    <img className="card-img" src={proj_1_8} alt="Luxurious Brown"/>
+                                </div>
+                                </div>
+                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
                                     <img className="card-img" src={proj_1_7} alt="Luxurious Brown"/>
                                 </div>
@@ -51,36 +56,14 @@ const Porject_1 = () => {
                                 </div>
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_3} alt="Luxurious Brown"/>
-                                </div>
-                                </div>
-                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
-                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_11} alt="Luxurious Brown"/>
-                                </div>
-                                </div>
-                        </div>
-                        <div className="col-md-4 col-sm-6 col-12">
-                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
-                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_2} alt="Luxurious Brown"/>
-                                </div>
-                                </div>
-                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
-                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
                                     <img className="card-img" src={proj_1_6} alt="Luxurious Brown"/>
                                 </div>
                                 </div>
-                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
-                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_8} alt="Luxurious Brown"/>
-                                </div>
-                                </div>
                         </div>
                         <div className="col-md-4 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_10} alt="Luxurious Brown"/>
+                                    <img className="card-img" src={proj_1_5} alt="Luxurious Brown"/>
                                 </div>
                                 </div>
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
@@ -93,9 +76,26 @@ const Porject_1 = () => {
                                     <img className="card-img" src={proj_1_4} alt="Luxurious Brown"/>
                                 </div>
                                 </div>
+                        </div>
+                        <div className="col-md-4 col-sm-6 col-12">
                             <div className="card text-white border-0 rounded-lg m-1 m-md-3">
                                 <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                    <img className="card-img" src={proj_1_5} alt="Luxurious Brown"/>
+                                    <img className="card-img" src={proj_1_11} alt="Luxurious Brown"/>
+                                </div>
+                                </div>
+                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
+                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                                    <img className="card-img" src={proj_1_2} alt="Luxurious Brown"/>
+                                </div>
+                                </div>
+                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
+                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                                    <img className="card-img" src={proj_1_3} alt="Luxurious Brown"/>
+                                </div>
+                                </div>
+                            <div className="card text-white border-0 rounded-lg m-1 m-md-3">
+                                <div className="shadow" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                                    <img className="card-img" src={proj_1_10} alt="Luxurious Brown"/>
                                 </div>
                                 </div>
                         </div>
