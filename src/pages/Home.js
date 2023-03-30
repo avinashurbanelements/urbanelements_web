@@ -38,10 +38,10 @@ const Home = () => {
             </div>
             <div className="col-md-4 py-5" data-aos="fade-right" data-aos-delay="300">
               <h4 className="">
-                Urban elements comes from urbanisation of your home with better quality and better standard of living. 
-                To Recreate the art and shaping cities and towns by giving them form and character. 
-                We are a simple unit and we look forward to be combined into more complex whole o an urban quarter or city. 
-                We make sure to give the best cost with the best quality of furniture, beautiful designs that are breathetaking to look at and the best premium lifestyle. 
+                As our name suggests, we work on the urbanization of your house. To provide you with a better quality of living with the help of 
+                modern innovations and designs. We make sure to give you the best there is, from designs so breathtaking to look at and of a quality 
+                that could last generations at all price that justifies itself. So what are you waiting for? Go ahead and call us! We would br happy to help you 
+                make your dream home.
               </h4>
             </div>
           </div>
@@ -58,6 +58,7 @@ const Home = () => {
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">
@@ -101,6 +102,17 @@ const Home = () => {
                 <div className="p-5 col-md-8 col-10 container">
                   <p className="text-center fs-1"><b>Dheeraj Patil</b></p>
                   <p className="text-center fs-4">Overall great experience. Thank you for the help!</p>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="d-flex justify-content-center align-items-center">
+                <div className="p-5 col-md-8 col-10 container">
+                  <p className="text-center fs-1"><b>Pavan Dave</b></p>
+                  <p className="text-center fs-4">URBAN ELEMENTS did my interiors for my apartment recently.
+                  They offered some good suggestions with regular feedbacks on the project. Overall they did an excellent job 
+                  in turning my vision into reality. Very professional customer services with timely completion of the project.
+                  Would Strongly recommend them for engagement to interiors of residential and commercial projects.</p>
                 </div>
               </div>
             </div>
