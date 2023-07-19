@@ -15,9 +15,7 @@ const Footer = () => {
                 <div className="col-sm text-center py-3">
                     <u className="fs-3">Location</u>
                     <div className="text-center fs-4">
-                        5th floor, Office no. 502,
-                        Mayuresh Square Sector-15,
-                        CBD Belapur-400614 Navi Mumbai.
+                    Office No.603, NMS Titanium, Plot No.74, Sector-15, CBD Belapur-400614. Navi Mumbai
                     </div>
                 </div>
               <hr className="mx-auto d-sm-none col-10" style={{padding: '0.1rem'}}/>
